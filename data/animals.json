@@ -117,6 +117,33 @@
         "hungry"
       ],
       "id": "11"
+    },
+    {
+      "name": "Abas",
+      "species": "bird",
+      "diet": "worms",
+      "personalityTraits": [
+        "loving"
+      ],
+      "id": "12"
+    },
+    {
+      "name": "mamad",
+      "species": "bird",
+      "diet": "worms",
+      "personalityTraits": [
+        "loving"
+      ],
+      "id": "13"
+    },
+    {
+      "name": "hassan",
+      "species": "bird",
+      "diet": "worms",
+      "personalityTraits": [
+        "loving"
+      ],
+      "id": "14"
     }
   ]
 }
