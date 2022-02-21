@@ -10,6 +10,8 @@ app.use(express.urlencoded({extended: true}));
 // parse incoming json data
 app.use(express.json());
 
+app.use(express.static('public'));
+
 
 
 function filterByQuery(query, animalsArray){
@@ -121,7 +123,21 @@ app.post('/api/animals',(req,res) => {
     
 })
 
+app.get('/',(req,res)=>{
+    res.sendFile(path.join(__dirname, './public/index.html'));
+})
 
+app.get('/animals',(req,res)=>{
+    res.sendFile(path.join(__dirname,'./public/animals.html'));
+})
+
+app.get('/zookeepers',(req,res)=>{
+    res.sendFile(path.join(__dirname, './public/zookeepers.html'))
+})
+
+app.get("*",(req,res) => {
+    res.sendFile(path.join(__dirname, './public/index.html'));
+})
 
 
 app.listen(PORT, ()=>{

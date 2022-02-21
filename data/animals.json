@@ -144,6 +144,35 @@
         "loving"
       ],
       "id": "14"
+    },
+    {
+      "name": "babak",
+      "species": "tiger",
+      "diet": "carnivore",
+      "personalityTraits": [
+        "zany",
+        "loving"
+      ],
+      "id": "15"
+    },
+    {
+      "name": "mamad",
+      "species": "ali",
+      "diet": "herbivore",
+      "personalityTraits": [
+        "hungry"
+      ],
+      "id": "16"
+    },
+    {
+      "name": "jason",
+      "species": "mamoth",
+      "diet": "folivore",
+      "personalityTraits": [
+        "zany",
+        "anxious"
+      ],
+      "id": "17"
     }
   ]
 }
